@@ -10,4 +10,4 @@ You can press enter without typing anything in the prompts if you just want `thr
 Also don't use `pullstitch_old`, it sucks and you'll need to input the name and how many files to pull or else you'll get half/none of a video. I really just defined `hostCDN` and then did absolutely nothing with it and hardcoded the CDN anyway huh
 
 
-I do not have the spoons to document any of this prettily right now I am so sorry
+I do not have the spoons to document any of this prettily right now I am so sorry. Create an issue if you care enough and I'll do it
