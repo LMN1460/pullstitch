@@ -9,4 +9,4 @@ Literally just a one-off that I knocked together in a couple hours to get the cl
 
 Be aware that this was thrown together without much thought for edge cases. I might update it to be more flexible if Legion encodes an hour-long stream or something, but don't expect this to have any use other than the ARG. _Theoretically_ it can work on other sites, but it makes assumptions based off Legion's naming scheme and will almost definitely break trying to pull from others. If you need more than 999 files, this might break. If they're zero padded already, this _will_ break. At a certain point you should probably just fork this yourself and mod it. I am not a Batch person. Sue me.
 
-I do not have the spoons to document any of this prettily right now I am so sorry. Create an issue if you care enough and I'll do it
+I do not have the spoons to format any of this prettily right now I am so sorry. Create an issue if something's bugging you and I'll fix it
