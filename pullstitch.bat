@@ -14,7 +14,6 @@ set timeStamp=%yyyy%%mm%%dd%%hh%%nn%%ss%%tt%
 :: prompt for CDN and file name
 set hostCDN=https://cdn.legion22.world/
 set /p hostCDN=Host CDN url: 
-set cmmnName=three
 set /p cmmnName=Common file name: 
 
 :: create cmmnName folder to store .ts files, adds timestamp to create unique names
