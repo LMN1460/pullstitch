@@ -1,6 +1,6 @@
 @echo off
 
-:: format current time into filename-friendly string, borrowed from the internship script <3
+:: format current time into filename-friendly string
 set hh=%time:~0,2%
 if "%hh:~0,1%" == " " set hh=0%hh:~1,1%
 set nn=%time:~3,2%
@@ -26,11 +26,11 @@ cd %foldName%
 :: pulls .ts files, pads up to 100s with zeros as necessary because the CDN doesn't
 for /L %%i in (0,1,%lastNum%) do (
 	if %%i LSS 10 (
-		curl https://cdn.legion22.world/%cmmnName%%%i.ts -o %cmmnName%00%%i.ts
+		curl %hostCDN%%cmmnName%%%i.ts -o %cmmnName%00%%i.ts
 	) else if %%i LSS 100 (
-		curl https://cdn.legion22.world/%cmmnName%%%i.ts -o %cmmnName%0%%i.ts
+		curl %hostCDN%%cmmnName%%%i.ts -o %cmmnName%0%%i.ts
 	) else (
-		curl https://cdn.legion22.world/%cmmnName%%%i.ts -o %cmmnName%%%i.ts
+		curl %hostCDN%%cmmnName%%%i.ts -o %cmmnName%%%i.ts
 	)
 )
 
