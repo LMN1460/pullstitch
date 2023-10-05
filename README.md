@@ -1,7 +1,7 @@
 # pullstitch
 Pulls .ts files from a CDN and stitches them together. Requires [ffmpeg](https://ffmpeg.org/download.html) to work; download the .exe and put it in the same folder as your script(s).
 
-Just a silly little one-off that I knocked together in a couple hours to get the clue 3 video for the Legion22 ARG. Piplup, this is all your fault.
+Just a silly little one-off that I knocked together in a couple hours to get the clue 3 video for the Legion22 ARG. Piplup this is all your fault /j
 
 **To run:** Run `pullstitch.bat` to open a command window. Press enter without typing anything in the `Host CDN url` field if you just want to pull from cdn.legion22.world; otherwise enter the CDN url in that first prompt. Enter the code word you used to access the video in the `Common name` field, or another common filename portion if using a different CDN. Wait for the download and stitch process to finish. Your output will appear in a folder for you to do as you see fit.
 
